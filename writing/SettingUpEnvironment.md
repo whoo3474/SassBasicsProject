@@ -46,4 +46,5 @@ vscode에는 기본 내장되어있음.
 - Live Sass Compiler(live server 도 자동으로 함께 설치됨) => sass적용된 파일에서 <오른쪽클릭=>open with live server>를 눌러서 server를 활성화 하면, 파일을 저장할때마다  hot loder 기능이 됨
   => port 에러 나올시.vs환경설정에서  "liveServer.settings.port": 0 추가
   => 하단 설정창에 (Watch Sass) 라는 버튼을 누르면 활성화되고, sass파일을 css로 컴파일 해줌
+  => seting 방법 https://github.com/ritwickdey/vscode-live-sass-compiler/blob/master/docs/settings.md
 - Sass Lint =>

@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAIA,AAAA,IAAI,CAAC;EACH,SAAS,EAAC,IAAI;EACd,gBAAgB,EANN,IAAI;EAOd,WAAW,EAAE,iCAAiC;CAC/C;;AAED,AAAA,IAAI,CAAA;EACF,KAAK,EATO,IAAI;EAUhB,gBAAgB,EAXP,IAAI;CAYd",
     "sources": [
-        "test.scss"
+        "../sass/test.scss"
     ],
     "names": [],
     "file": "test.css"
