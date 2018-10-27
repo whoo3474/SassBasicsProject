@@ -9,6 +9,15 @@
   text-decoration: $textDeco;
 }
 
+//extend
+%boxShape {
+  border-radius:20px;
+  border: 3px solid #f00;
+  box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.75);
+}
+
+//extend는 속성과 값이 같을때, mixin은 속성은 같은데 값은 다를때
+
 html {
   font-size: 18px;
 }
@@ -30,8 +39,7 @@ a {
 
 #box1 {
   @include fontSizeBgColor(40px, #fccccc);
-  box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.75);
-
+  @extend %boxShape;
   &:hover {
     background-color: #ccc;
     @media screen and (max-width:500px){
@@ -71,10 +79,7 @@ a {
   //너무 길어지면 가독성이 떨어지기 떄문에 따로 빼놔도 괜찮다.
   #box2 {
     @include fontSizeBgColor(20px, #e9e9e9);
-  
-    border-radius: 20px;
-    border: 3px solid #f00;
-    box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.75);
+    @extend %boxShape;
   
     & > a{
       @include linkStyle(#ee6633);
