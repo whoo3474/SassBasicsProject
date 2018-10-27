@@ -1,0 +1,35 @@
+body {
+  font-size: 14px;
+  background-color: #ddd;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#box1 {
+  color: #ff0;
+  background-color: rgba(71, 255, 255, 0.678);
+  width: 100px;
+}
+
+#box2 {
+  color: #f00;
+  background-color: rgba(71, 255, 255, 0.678);
+  width: 100px;
+}
+
+#box3 {
+  color: #ff0;
+  background-color: rgba(71, 255, 255, 0.678);
+  width: 300px;
+}
+
+#box4 {
+  color: #ff0;
+  background-color: rgba(71, 255, 255, 0.678);
+  width: 300px;
+}
+
+#box5 {
+  color: #0f0;
+  background-color: rgba(71, 255, 255, 0.678);
+}
+/*# sourceMappingURL=vars.css.map */

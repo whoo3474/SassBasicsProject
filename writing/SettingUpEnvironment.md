@@ -6,16 +6,17 @@ vscode에는 기본 내장되어있음.
 - div*5 (div 구조를 5개 만든다.)
 - div.box*3 (box라는 클래스 네임을 가진 div를 3개 만든다.)
 - ul>li.list*5 (ul 자식으로 list라는 클래스 네임을 가진 li를 5개 만든다.)   
+-div#box$*5 (box 라는 클래스 네임을 가지는데 box 뒤에 1부터 5까지증가한다)
 
 
 
 2. vscode가 제공하는 에디팅 기능
 
 - 중복의 라인에서 같이 작성하기, 다중커서 <alt+왼쪽클릭>
-- 블록을 지정하지않고, 라인의 마지막줄에서 커서를 지정해주고 <ctrl+c>을 하면 라인 자체를 복사한다.
+- 블록을 지정하지않고, 라인의 마지막줄에서 커서를 지정해주고 <ctrl+C>을 하면 라인 자체를 복사한다.
 - 원하는 라인들에 커서 또는, 블록을 지정해주고 <위,아래 방향키> 를 누르면 라인 전체가 이동한다.
 - 주석달기 <ctrl+/>
-
+-같은 문자열을 블록하고 싶을때, 커서를 올린후 <ctrl+D>
 
 
 3. vscode 환경설정 - 현재는 GUI 환경이 잘되어있음
@@ -47,4 +48,18 @@ vscode에는 기본 내장되어있음.
   => port 에러 나올시.vs환경설정에서  "liveServer.settings.port": 0 추가
   => 하단 설정창에 (Watch Sass) 라는 버튼을 누르면 활성화되고, sass파일을 css로 컴파일 해줌
   => seting 방법 https://github.com/ritwickdey/vscode-live-sass-compiler/blob/master/docs/settings.md
+  => vs환경설정 => 작업영역설정
+  **컴파일 할 경로 설정 (~는 현재파일)
+
+  {
+  "liveSassCompile.settings.formats":[
+    {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "~/../style"
+    }
+  ]
+}
+
+
 - Sass Lint =>

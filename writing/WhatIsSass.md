@@ -15,3 +15,6 @@ style3.scss                       style3.css
 1. VS Code + Live Sass Compiler
 2. Ruby Gem을 이용
 3. Node.js Npm을 이용
+
+~사용자 설정은 공통으로 적용이 되는것.
+작업 영역 설정은 해당 작업폴더에서만 적용이 된다.
