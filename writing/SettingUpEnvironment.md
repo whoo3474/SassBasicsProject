@@ -36,6 +36,8 @@ vscode에는 기본 내장되어있음.
 <보기 - 명령 팔레트>를 선택하면 명령어를 확인할수있음.
 
 - color Highlight => css에서 color를 줄때 색상 미리보기(컬러 팔렛트)및 선택이 가능함
+=> include , import ,extend .. 등에서 확장자 에러가 날 가능성이있음
+=> colorize로 새로 설치하면 좋을듯.
 - Prettier-Code formatter => 코드포맷을 자동으로 완성시켜줌 <ctrl+shift+p>
 - 왼쪽 밑의 톱니바퀴 아이콘을 누른후 색 테마로 vscode의 테마를 바꿀수있음
 
